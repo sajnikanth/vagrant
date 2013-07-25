@@ -1,0 +1,71 @@
+{
+  "sources": {
+    "development": {
+      "path": "."
+    },
+    "apt": {
+      "locked_version": "2.0.0"
+    },
+    "git": {
+      "locked_version": "2.5.2"
+    },
+    "homesick": {
+      "locked_version": "0.4.0"
+    },
+    "rvm": {
+      "locked_version": "0.9.1",
+      "git": "git://github.com/fnichol/chef-rvm.git",
+      "ref": "7038fb8c518d0d7785767de215b1ae463f237973"
+    },
+    "redisio": {
+      "locked_version": "1.6.0"
+    },
+    "mysql": {
+      "locked_version": "3.0.2"
+    },
+    "mongodb": {
+      "locked_version": "0.12.0",
+      "git": "git://github.com/edelight/chef-mongodb.git",
+      "ref": "e56f80b599e05ff46039b09a0fa65d325c4ba46b"
+    },
+    "imagemagick": {
+      "locked_version": "0.2.2"
+    },
+    "ssh_known_hosts": {
+      "locked_version": "1.0.0"
+    },
+    "dmg": {
+      "locked_version": "1.1.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "yum": {
+      "locked_version": "2.3.0"
+    },
+    "windows": {
+      "locked_version": "1.10.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "runit": {
+      "locked_version": "1.1.6"
+    },
+    "java": {
+      "locked_version": "1.12.0"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
+    },
+    "ulimit": {
+      "locked_version": "0.3.0"
+    },
+    "openssl": {
+      "locked_version": "1.0.2"
+    },
+    "partial_search": {
+      "locked_version": "1.0.2"
+    }
+  }
+}

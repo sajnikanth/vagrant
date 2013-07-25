@@ -1,0 +1,15 @@
+{
+    "name": "database",
+        "description": "sql and a few no sql databases",
+        "json_class": "Chef::Role",
+        "default_attributes": {
+        },
+        "override_attributes": {
+        },
+        "chef_type": "role",
+        "run_list": [
+            "recipe[mysql::server]", "recipe[redisio::install]", "recipe[redisio::enable]", "recipe[mongodb::10gen_repo]", "recipe[mongodb::default]", "recipe[imagemagick]"
+            ],
+        "env_run_lists": {
+        }
+}

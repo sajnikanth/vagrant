@@ -1,0 +1,15 @@
+{
+    "name": "ruby_dev",
+        "description": "installs rvm and ruby",
+        "json_class": "Chef::Role",
+        "default_attributes": {
+        },
+        "override_attributes": {
+        },
+        "chef_type": "role",
+        "run_list": [
+            "recipe[rvm::user]"
+            ],
+        "env_run_lists": {
+        }
+}

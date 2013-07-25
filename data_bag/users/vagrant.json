@@ -1,0 +1,10 @@
+{
+    "id": "vagrant",
+    "homesick_castles": [
+        {
+            "name": "castle",
+            "source": "git://github.com/sajnikanth/castle.git",
+            "action": "update"
+        }
+    ]
+}
