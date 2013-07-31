@@ -3,22 +3,21 @@
 
 Vagrant.configure("2") do |config|
     # Box definitions
-    config.vm.box = "base"
-    config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box"
+    config.vm.box = "raring64"
+    config.vm.box_url = "http://files.vagrantup.com/raring64.box"
 
     # Setup ssh forwarding. Refer to https://help.github.com/articles/using-ssh-agent-forwarding
     config.ssh.forward_agent = true
 
     # Configure network and ports to forward to host
-    config.vm.network :private_network, ip: "192.168.12.34"
     config.vm.network :forwarded_port, guest: 3000, host: 3000
 
     # Share additional folders
-    config.vm.synced_folder "~/Dropbox/Photos 0001-0097/", "/home/vagrant/Photos/"
+    #config.vm.synced_folder "~/Dropbox/Photos/", "/home/vagrant/photos/"
 
     # Configure VM name and memory required
     config.vm.provider :virtualbox do |vb|
-        vb.name = "vag"
+        vb.name = "development"
         vb.customize ["modifyvm", :id, "--memory", "2048"]
     end
 
