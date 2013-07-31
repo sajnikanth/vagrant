@@ -12,6 +12,18 @@
     "homesick": {
       "locked_version": "0.4.0"
     },
+    "ssh_known_hosts": {
+      "locked_version": "1.0.0"
+    },
+    "ack-grep": {
+      "locked_version": "0.1.0"
+    },
+    "tree": {
+      "locked_version": "1.1.0"
+    },
+    "python": {
+      "locked_version": "1.3.4"
+    },
     "rvm": {
       "locked_version": "0.9.1",
       "git": "git://github.com/fnichol/chef-rvm.git",
@@ -31,9 +43,6 @@
     "imagemagick": {
       "locked_version": "0.2.2"
     },
-    "ssh_known_hosts": {
-      "locked_version": "1.0.0"
-    },
     "dmg": {
       "locked_version": "1.1.0"
     },
@@ -52,6 +61,9 @@
     "runit": {
       "locked_version": "1.1.6"
     },
+    "partial_search": {
+      "locked_version": "1.0.2"
+    },
     "java": {
       "locked_version": "1.12.0"
     },
@@ -62,9 +74,6 @@
       "locked_version": "0.3.0"
     },
     "openssl": {
-      "locked_version": "1.0.2"
-    },
-    "partial_search": {
       "locked_version": "1.0.2"
     }
   }

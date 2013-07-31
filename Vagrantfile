@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 
     # Configure VM name and memory required
     config.vm.provider :virtualbox do |vb|
-        vb.name = "development"
+        vb.name = "vag"
         vb.customize ["modifyvm", :id, "--memory", "2048"]
     end
 
@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
         chef.data_bags_path = "data_bag"
 
         # Roles and the recipes to be run
-        chef.run_list = ["role[base]", "role[ruby_dev]", "role[database]", "recipe[development::git_repo]"]
+        chef.run_list = ["role[base]", "role[ruby_dev]", "role[database]", "recipe[development::git_repo]", "role[python_dev]"]
 
         # parameters while running specific recipes. 'users' is for homesick
         chef.json = {
