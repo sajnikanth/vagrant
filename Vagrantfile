@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
     # Box definitions
     config.vm.box = "raring64"
-    config.vm.box_url = "http://files.vagrantup.com/raring64.box"
+    config.vm.box_url = "http://cloud-images.ubuntu.com/raring/current/raring-server-cloudimg-vagrant-amd64-disk1.box"
 
     # Setup ssh forwarding. Refer to https://help.github.com/articles/using-ssh-agent-forwarding
     config.ssh.forward_agent = true
